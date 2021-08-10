@@ -7,10 +7,10 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="navbar">
-                <div class="header-gmail">
+    <div class="main-container">
+        <header>
+            <nav class="navbar" aria-label="Header">
+                <div class="header-gmail flex-padding">
                     <a href="https://mail.google.com/mail/" target="_blank">Gmail</a>
                 </div>
                 <div class="header-images">
@@ -19,28 +19,43 @@
                 <div class="header-menu">
                     <a href="#">Menu</a>
                 </div>
-                <div class="header-profile">
+                <div class="header-profile flex-padding">
                     <a href="https://twitter.com/progress_sh_" target="_blank">Profile</a>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="search">
+            </nav>
+        </header>
+        <main class="flex-search">
             <div class="search-googlelogo">
-                <img src="media/googlelogo.png" alt="Logo of Google">
+                <div class="googlelogo">
+                    <img src="media/googlelogo.png" alt="Logo of Google">
+                </div>
             </div>
-            <div class="search-bar">
-                <input type="text" id="search" name="search" size="100">
+            <div class="search">
+                <div class="search-bar">
+                    <input type="text" id="search" name="search" size="100">
+                </div>
+                <div class="search-buttons">
+                    <button type="button">Google Search</button>
+                    <button type="button">I'm Feeling Lucky</button>
+                </div>
+                <div class="space"></div>
             </div>
-            <div class="search-button">
-                <button type="button">Google Search</button>
-            </div>
-            <div class="search-lucky">
-                <button type="button">I'm Feeling Lucky</button>
-            </div>
-        </div>
-    </main>
+        </main>
+        <footer>
+            <nav class="footer-container" aria-label="Footer">
+                <div class="footer-1">
+                    <a href="https://about.google/" target="_blank">About</a>
+                    <a href="https://ads.google.com/" target="_blank">Advertising</a>
+                    <a href="https://smallbusiness.withgoogle.com/" target="_blank">Business</a>
+                    <a href="https://www.google.com/search/howsearchworks/" target="_blank">How Search Works</a>
+                </div>
+                <div class="footer-2">
+                    <a href="https://policies.google.com/privacy" target="_blank">Privacy</a>
+                    <a href="https://policies.google.com/terms" target="_blank">Terms</a>
+                </div>
+            </nav>
+        </footer>
+    </div>
 </body>
 
 </html>
