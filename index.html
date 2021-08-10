@@ -7,24 +7,25 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="flex-container">
         <header>
-            <nav class="navbar" aria-label="Header">
-                <div class="header-gmail flex-padding">
+            <nav class="top-div" aria-label="Header">
+                <div>
                     <a href="https://mail.google.com/mail/" target="_blank">Gmail</a>
                 </div>
-                <div class="header-images">
-                    <a href="https://www.google.fr/imghp" target="_blank">Images</a>
+                <div>
+                    <a href="https://www.google.com/imghp">Images</a>
                 </div>
-                <div class="header-menu">
-                    <a href="#">Menu</a>
+                <div>
+                    <a href="#"><img src="./media/menu.png" alt="menu"></a>
                 </div>
-                <div class="header-profile flex-padding">
-                    <a href="https://twitter.com/progress_sh_" target="_blank">Profile</a>
+                <div>
+                    <a href="https://twitter.com/progress_sh_" target="_blank"><img src="./media/portrait.png"
+                            alt="Picture of a portrait representing the user"></a>
                 </div>
             </nav>
         </header>
-        <main class="flex-search">
+        <main class="middle-div">
             <div class="search-googlelogo">
                 <div class="googlelogo">
                     <img src="media/googlelogo.png" alt="Logo of Google">
@@ -32,17 +33,23 @@
             </div>
             <div class="search">
                 <div class="search-bar">
-                    <input type="text" id="search" name="search" size="100">
+                    <div class="inner-bar">
+                        <div class="searchicon">
+                            
+                        </div>
+                        <div class="inputsection">
+                            <input type="text" id="search" name="search" size="100">
+                        </div>
+                    </div>
                 </div>
                 <div class="search-buttons">
                     <button type="button">Google Search</button>
                     <button type="button">I'm Feeling Lucky</button>
                 </div>
-                <div class="space"></div>
             </div>
         </main>
         <footer>
-            <nav class="footer-container" aria-label="Footer">
+            <nav class="footer" aria-label="Footer">
                 <div class="footer-1">
                     <a href="https://about.google/" target="_blank">About</a>
                     <a href="https://ads.google.com/" target="_blank">Advertising</a>

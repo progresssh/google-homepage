@@ -1,53 +1,87 @@
-html, body {
-    margin: 0px;
+body, html {
+    margin: 0;
+    background: #fff;
     height: 100%;
+    font-family: arial,sans-serif;
 }
 
-body {
-    background-color: #fff;
+a {
+    padding: 0 1.5rem 0 0;
+    text-decoration: none;
+    color: #212121;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222;
-    
 }
 
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+a:hover {
+ text-decoration:underline
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    flex-grow: 2;
-}
-
-.footer-container {
-    display: flex;
-    flex: 1 100%;
-    flex-direction: column;
-
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
-
-.flex-search {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
+button {
+    margin: 0.5rem;
+    background-color: #f8f9fa;
+    border: 0px solid #bdc0c2;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 0 16px;
+    height: 2.5rem;
+    cursor: pointer;
 }
 
 .search-buttons {
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
+}
+
+.flex-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-div {
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.middle-div {
+    display: flex;
+    flex-direction: column;
+    flex: 10 1;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 12rem;
+}
+
+.googlelogo {
+    margin-bottom: 2rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 1rem;
+    background-color: #f2f2f2;
+}
+
+.footer-1, .footer-2 {
+    display: flex;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-1 {
+    flex: 1 1;
+    align-items: flex-end;
+    
+}
+
+.footer-2 {
+    flex: 1 1;
+    align-items: flex-end;
+    justify-content: end;
 }
