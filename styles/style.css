@@ -85,3 +85,49 @@ button {
     align-items: flex-end;
     justify-content: end;
 }
+
+.search {
+    width: 100%;
+    height: 5%;
+    max-width: 584px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.inner-bar {
+    display: flex;
+    flex: 1;
+    width: auto;
+    box-sizing: border-box;
+}
+
+
+.inputsection {
+    display: flex;
+    flex: 1 1;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    align-content: center;
+   
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    display: flex;
+    height: 34px;
+    width: 95%;
+    font-size: 16px;
+}
+
+
+.searchicon {
+    height: 1.5rem;
+    align-content: center;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem
+}
